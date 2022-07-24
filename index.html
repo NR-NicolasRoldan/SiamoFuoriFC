@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/normalize.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./styles/style.css">
     <title>Inicio</title>
 </head>
@@ -35,11 +35,14 @@
         </header>
         <main>
             <div>
-                <h1 class="titulo">Siamo Fuori Futbol Club,un club de amigos</h1>
+                <h1 class="titulo" data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">Siamo Fuori Futbol Club,un club de amigos</h1>
             </div>
             <section>
                 <div>
                     <img class="logo" src="./images/escudo 4.jpeg" alt="escudo actual de la siamo">
+               </div>
                 </div>
             </section>
         </main>
@@ -66,7 +69,10 @@
                 </div>
             </div>
         </footer>
-
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </div>
 </body>
 

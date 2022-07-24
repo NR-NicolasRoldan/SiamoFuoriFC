@@ -72,11 +72,49 @@ li{
     margin: 10px 15px 20px 15px;
 }
 
+.logo:hover{
+    animation: logo 4s;
+}
+
+@keyframes logo{
+    0%{
+        transform: translate(200px);
+    }
+    25%{
+        transform: rotate3d(100px);
+    }
+    50%{
+        border-radius: 10px;
+    }
+    75%{
+        transform: translateX(350px);
+    }
+}
+
 img{
     height: 300px;
     width: 300px;
     border-style: double;
     border-radius: 10px;
+}
+
+img:hover{
+    animation: galeria 4s;
+}
+
+@keyframes galeria{
+    0%{
+        transform: translate(50px);
+    }
+    25%{
+        transform: scale(2);
+    }
+    50%{
+        border-radius: 10px;
+    }
+    75%{
+        transform: translateX(200px);
+    }
 }
 
 a{
