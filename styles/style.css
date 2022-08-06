@@ -25,7 +25,7 @@ p{
     margin: 5px 30px 5px 5px;
 }
 body{
-    background-color: rgb(83, 83, 83);
+    background-color: white;
 }
 
 header{
@@ -70,10 +70,6 @@ li{
     border: 3px solid black;
     border-radius: 10px;
     margin: 10px 15px 20px 15px;
-}
-
-.logo:hover{
-    animation: logo 4s;
 }
 
 @keyframes logo{
@@ -121,7 +117,7 @@ a{
     color: black;
 }
 
-.tnav{
+tnav{
     color: black;
 }
 
