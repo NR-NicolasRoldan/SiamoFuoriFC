@@ -1,0 +1,32 @@
+.titulo{
+    display: grid;
+    justify-content: center;
+    align-content: start;
+    grid-area: titulo;
+    text-align: center;
+    text-decoration: dashed;
+    background-color: orange;
+    border-radius: 15px;
+    color: black;
+}
+
+h2{
+    background-color: rgb(189, 189, 189);
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    text-align: left;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 1.1;
+    letter-spacing: 1px;
+    padding: 5px;
+    margin: 5px 30px 5px 5px;
+    color: $azul;
+}
+
