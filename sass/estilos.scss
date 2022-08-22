@@ -4,3 +4,23 @@
 @import "titulo";
 @import "index";
 
+.redSocial{
+    border: 1px solic black;
+    background-color: orange;
+}
+
+.redSocial--social{
+    @extend .redSocial;
+    font-size: 14px;
+    color: orange;
+}
+
+@mixin sizes($width,$height){
+    height: $height;
+    width: $width;
+}
+
+.my_mixin{
+    @include sizes (500px, 50px);
+    background-color: orange;
+}
