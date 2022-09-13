@@ -1,26 +1,20 @@
-@import "variableGlobal";
-@import "fuentes";
-@import "generales";
+@use 'fuentes';
+@use "generales";
 @import "titulo";
 @import "index";
 
-.redSocial{
+.redSocial, .redSocial--social {
     border: 1px solic black;
     background-color: orange;
-}
+  }
 
-.redSocial--social{
-    @extend .redSocial;
+.redSocial--social {
     font-size: 14px;
     color: orange;
-}
+  }
 
-@mixin sizes($width,$height){
-    height: $height;
-    width: $width;
-}
-
-.my_mixin{
-    @include sizes (500px, 50px);
+.my_mixin {
+    height: 50px;
+    width: 500px;
     background-color: orange;
-}
+  }

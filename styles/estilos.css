@@ -6,15 +6,20 @@
 }
 
 body {
-  background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    text-align: center;
 }
 
 .logo {
-  height: 308px;
-  width: 460px;
+  height: 90%;
+  width: auto;
   border: 3px solid black;
-  border-radius: 10px;
-  margin: 10px 15px 20px 15px;
+  border-radius: 50px 50px 100px 100px;
+  margin: 0;
 }
 
 img {
@@ -32,10 +37,38 @@ footer {
   background-color: orange;
   border-radius: 10px;
   -webkit-text-emphasis-color: orange;
-          text-emphasis-color: orange;
+  text-emphasis-color: orange;
   text-align: center;
   padding-top: 10px;
   color: black;
+}
+
+span{
+  color: blue;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 17px;
+  font-style: italic;
+}
+
+.goycochea{
+  font-style: italic;
+  font-size: 12px;
+}
+
+.fotos{
+  padding: 10px;
+}
+
+.club{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.club p{
+   font-size: 30px;
+   padding: 0;
+   margin: 0;
 }
 
 .titulo {
@@ -45,7 +78,7 @@ footer {
   grid-area: titulo;
   text-align: center;
   -webkit-text-decoration: dashed;
-          text-decoration: dashed;
+  text-decoration: dashed;
   background-color: orange;
   border-radius: 15px;
   color: black;
@@ -68,7 +101,7 @@ p {
   letter-spacing: 1px;
   padding: 5px;
   margin: 5px 30px 5px 5px;
-  color: rgb(25, 0, 255);
+  color: rgb(0, 0, 0);
 }
 
 header {
@@ -76,6 +109,7 @@ header {
   justify-content: left;
   grid-area: header;
 }
+
 header ul li {
   text-align: center;
   background-color: orange;
@@ -83,6 +117,7 @@ header ul li {
   width: 100%;
   list-style-type: none;
 }
+
 header ul li li {
   margin-left: 4px;
   padding: 70px 70px;
@@ -92,6 +127,7 @@ header ul li li {
   border-left: 1px solid black;
   text-shadow: 5px 5px rgba(0, 0, 0, 0.2);
 }
+
 header ul li li a {
   color: black;
 }
@@ -100,14 +136,3 @@ header ul li li a {
   border: 1px solic black;
   background-color: orange;
 }
-
-.redSocial--social {
-  font-size: 14px;
-  color: orange;
-}
-
-.my_mixin {
-  height: 50px;
-  width: 500px;
-  background-color: orange;
-}/*# sourceMappingURL=estilos.css.map */
